@@ -1,5 +1,10 @@
 package com.docmall.controller;
 
-public class TestController {
+import org.springframework.web.bind.annotation.GetMapping;
 
+public class TestController {
+	@GetMapping("/")
+	public void TEST() {
+		
+	}
 }
